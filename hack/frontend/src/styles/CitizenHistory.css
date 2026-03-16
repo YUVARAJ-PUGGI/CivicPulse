@@ -1,0 +1,125 @@
+.citizen-history-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.citizen-history-container h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 40px;
+  letter-spacing: -0.04em;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 32px;
+}
+
+.complaints-list,
+.complaint-details {
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.complaint-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.complaint-item:hover {
+  border-color: var(--color-accent);
+  background: var(--bg-hover);
+  transform: translateX(4px);
+}
+
+.complaint-item.active {
+  border-color: var(--color-accent);
+  border-width: 2px;
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.complaint-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+.badge-resolved {
+  color: #059669;
+  border: 1px solid #059669;
+  background: rgba(5, 150, 105, 0.05);
+}
+
+.badge-submitted {
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  background: rgba(99, 102, 241, 0.05);
+}
+
+/* Details Polish */
+.detail-section {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.detail-section h3 {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.complaint-image {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+}
+
+.resolution-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--color-accent);
+  padding: 32px;
+  border-radius: var(--radius-lg);
+}
+
+.star {
+  font-size: 1.5rem;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
+.star.active {
+  filter: grayscale(0);
+}
