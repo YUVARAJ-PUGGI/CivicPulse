@@ -9,8 +9,7 @@
 
 <!-- ANIMATED TYPING SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=60&lines=🏙️+Smart+City+Grievance+Platform+for+Bengaluru;🤖+Powered+by+AI+%7C+NLP+%7C+Geospatial+Intelligence;📊+Real-Time+Dashboards+%7C+Priority+Queues+%7C+Heatmaps" alt="Typing SVG"/>
-</div>
+
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&duration=2400&pause=700&color=FF6B6B&center=true&vCenter=true&repeat=true&width=980&lines=SYSTEM+STATUS+%E2%80%A2+Prototype+Demo+Build+%E2%80%A2+AI+Routing+Ready+%E2%80%A2+Heatmap+Engine+Ready+%E2%80%A2+SLA+Monitor+Configured" alt="System Status"/>
